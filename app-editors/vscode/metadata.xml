@@ -5,13 +5,13 @@
 		<email>d.k.ivanov@live.com</email>
 		<name>Dmitry Ivanov</name>
 	</maintainer>
-        <longdescription lang="en">
+	<longdescription lang="en">
 		VS Code is a new type of tool that combines the simplicity of a code editor
-                with what developers need for their core edit-build-debug cycle.
-                Code provides comprehensive editing and debugging support, an extensibility model,
-                and lightweight integration with existing tools.
+		with wh	at developers need for their core edit-build-debug cycle.
+		Code provides comprehensive editing and debugging support, an extensibility model,
+		and lightweight integration with existing tools.
 	</longdescription>
-        <upstream>
+	<upstream>
 		<remote-id type="github">Microsoft/vscode</remote-id>
 	</upstream>
 </pkgmetadata>
