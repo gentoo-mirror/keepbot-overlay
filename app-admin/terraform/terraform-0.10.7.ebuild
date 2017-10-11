@@ -31,7 +31,7 @@ src_install(){
 	pax-mark m ${PN}
 	insinto "/opt/bin"
 	doins -r ${PN}
-	dosym "${PN}" "/usr/bin/${PN}"
+	dosym "/opt/bin/${PN}" "/usr/bin/${PN}"
 	fperms +x "/opt/bin/${PN}"
 }
 
