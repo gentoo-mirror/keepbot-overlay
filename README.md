@@ -7,3 +7,6 @@ Import overlay:
 sudo layman -S && sudo layman -a keepbot-overlay
 ```
 
+### Overlay info
+* (Contents)[CONTENS.md]
+
