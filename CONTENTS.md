@@ -1,22 +1,21 @@
-### Table of contents
+## Table of contents
 
-<details>
- <app-admin>app-admin</app-admin>
+<details><summary><b>app-admin</b></summary>  
 
-* Terraform: 0.10.7 
-
-</details>
-
-<details>
- <app-editors>app-editors</app-editors>
-
-* Visual Studio Code: 1.16.1, 1.17.1
+* _Terraform_: 0.10.7 
 
 </details>
 
-<details>
- <app-emulation>app-emulation</app-emulation>
+<details><summary><b>app-editors</b></summary>  
 
-* PlayOnLinux: 4.2.12 (Fixed: openbsd-netcat as alternate netcat dependency)
+* _Visual Studio Code_: 1.16.1, 1.17.1
 
 </details>
+
+<details><summary><b>app-emulation</b></summary>  
+
+* _PlayOnLinux_: 4.2.12 (Fixed: **openbsd-netcat** as alternate netcat dependency)
+
+</details>
+
+
