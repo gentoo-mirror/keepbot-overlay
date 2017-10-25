@@ -3,3 +3,7 @@
 # * generated automatically using pmaint *
 
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
+net-libs/nodejs:bundled-ssl - Use bundled version of OpenSSL (hack)
+net-libs/nodejs:npm - Enable NPM package manager
+net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
+net-libs/nodejs:systemtap - Enable SystemTAP/DTrace tracing

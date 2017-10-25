@@ -1,3 +1,4 @@
 app-admin/terraform 0.10.7: Building, changing, and versioning infrastructure safely and efficiently.
 app-editors/vscode 1.16.1 1.17.1: Multiplatform code editor from Microsoft
 app-emulation/playonlinux 4.2.12: Set of scripts to easily install and use Windows games and software
+net-libs/nodejs 7.10.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
