@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>slyfox@gentoo.org</email>
+		<name>Sergei Trofimovich</name>
+		<description>Primary Maintainer</description>
+	</maintainer>
+	<use>
+		<flag name='fetch-crates'>Allow crates to be fetched from internet (useful for live ebuilds changing rapidly).</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">jwilm/alacritty</remote-id>
+	</upstream>
+</pkgmetadata>
