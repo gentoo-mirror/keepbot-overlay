@@ -18,6 +18,7 @@ bitflags-0.7.0
 bitflags-0.8.2
 bitflags-0.9.1
 block-0.1.6
+built-0.2.0
 byteorder-1.1.0
 bytes-0.3.0
 cargo_metadata-0.2.3
@@ -138,7 +139,7 @@ synom-0.11.3
 target_build_utils-0.3.1
 tempfile-2.1.6
 term_size-0.3.0
-textwrap-0.7.0
+textwrap-0.9.0
 thread_local-0.3.4
 time-0.1.38
 toml-0.4.5
