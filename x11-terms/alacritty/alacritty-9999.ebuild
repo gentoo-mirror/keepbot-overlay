@@ -18,6 +18,7 @@ bitflags-0.7.0
 bitflags-0.8.2
 bitflags-0.9.1
 block-0.1.6
+built-0.2.0
 byteorder-1.1.0
 bytes-0.3.0
 cargo_metadata-0.2.3
