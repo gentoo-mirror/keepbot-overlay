@@ -202,10 +202,7 @@ DEPEND="
 
 	x11-misc/xclip
 "
-RDEPEND="
-	dev-util/cmake
-	virtual/pkgconfig
-"
+RDEPEND=""
 
 src_unpack() {
 	git-r3_src_unpack
