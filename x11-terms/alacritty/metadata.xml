@@ -2,13 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>slyfox@gentoo.org</email>
-		<name>Sergei Trofimovich</name>
-		<description>Primary Maintainer</description>
+		<email>d.k.ivanov@live.com</email>
+		<name>Dmitry Ivanov</name>
 	</maintainer>
-	<use>
-		<flag name='fetch-crates'>Allow crates to be fetched from internet (useful for live ebuilds changing rapidly).</flag>
-	</use>
+	<longdescription lang="en">
+		Alacritty is the fastest terminal emulator in existence. Using the GPU
+		for rendering enables optimizations that simply aren't possible in 
+		other emulators. Alacritty currently supports macOS and Linux, and 
+		Windows support is planned before the 1.0 release.
+	</longdescription>
 	<upstream>
 		<remote-id type="github">jwilm/alacritty</remote-id>
 	</upstream>
