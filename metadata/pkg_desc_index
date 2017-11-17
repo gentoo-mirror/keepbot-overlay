@@ -2,4 +2,4 @@ app-admin/terraform 0.10.7 0.10.8: Building, changing, and versioning infrastruc
 app-editors/vscode 1.16.1 1.17.1 1.18.1: Multiplatform code editor from Microsoft
 app-emulation/playonlinux 4.2.12: Set of scripts to easily install and use Windows games and software
 net-libs/nodejs 7.10.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
-x11-terms/alacritty 9999: GPU-accelerated terminal emulator
+x11-terms/alacritty 0.1.0: GPU-accelerated terminal emulator
