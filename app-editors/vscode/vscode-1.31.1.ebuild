@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -59,7 +59,7 @@ QA_PRESTRIPPED="
 	opt/${PN}/code
 	opt/${PN}/bin/code
 	opt/${PN}/libnode.so
-	opt/${PN}/resources/app/node_modules/vscode-ripgrep/bin/rg
+	opt/${PN}/resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/rg
 "
 
 pkg_setup(){
@@ -75,8 +75,10 @@ src_install(){
 	doicon "${FILESDIR}/${PN}.png"
 	fperms +x "/opt/${PN}/code"
 	fperms +x "/opt/${PN}/bin/code"
+	fperms +x "/opt/${PN}/libffmpeg.so"
 	fperms +x "/opt/${PN}/libnode.so"
-	fperms +x "/opt/${PN}/resources/app/node_modules/vscode-ripgrep/bin/rg"
+	fperms +x "/opt/${PN}/resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/rg"
+	fperms +x "/opt/${PN}/resources/app/extensions/git/dist/askpass.sh"
 	insinto "/usr/share/licenses/${PN}"
 	newins "resources/app/LICENSE.txt" "LICENSE"
 }
