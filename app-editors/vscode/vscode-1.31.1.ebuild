@@ -70,7 +70,7 @@ src_install(){
 	pax-mark m code
 	insinto "/opt/${PN}"
 	doins -r *
-	dosym "/opt/${PN}/bin/code" "/usr/bin/${PN}"
+	dosym "/opt/${PN}/bin/code" "/usr/bin/code"
 	make_desktop_entry "${PN}" "Visual Studio Code" "${PN}" "Utility;TextEditor;Development;IDE;"
 	doicon "${FILESDIR}/${PN}.png"
 	fperms +x "/opt/${PN}/code"

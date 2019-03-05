@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd ./app-editors/vscode
+ebuild vscode-1.31.1.ebuild manifest clean merge
+cd -
