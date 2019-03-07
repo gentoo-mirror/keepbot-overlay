@@ -2,3 +2,7 @@
 cd ./app-editors/vscode
 ebuild vscode-1.31.1.ebuild manifest clean merge
 cd -
+
+cd ./app-misc/doublecmd
+ebuild doublecmd-0.9.1.ebuild manifest clean merge
+cd -
