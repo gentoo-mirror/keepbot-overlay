@@ -60,7 +60,7 @@ src_prepare(){
 }
 
 src_compile(){
-	./build.sh beta || die
+	./build.sh beta
 }
 
 src_install(){
@@ -71,7 +71,7 @@ src_install(){
     install/linux/install.sh --portable-prefix=build
     rsync -a "${S}/build/" "${D}/opt" || die "Unable to copy files"
 	dosym "/opt/${PN}/${PN}" "/usr/bin/${PN}"
-	make_desktop_entry ${PN} "Double Commander" "${PN}" "Utility;" || die "Failed making desktop entry!"
+	make_desktop_entry "${PN}" "Double Commander" "${PN}" "Utility;FileTools;FileManager;"
 }
 
 pkg_postinst() {
