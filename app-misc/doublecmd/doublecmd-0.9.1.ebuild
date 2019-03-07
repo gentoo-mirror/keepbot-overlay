@@ -67,10 +67,10 @@ src_install(){
 	install/linux/install.sh --portable-prefix="build"
 	newicon pixmaps/mainicon/colored/v4_4.png ${PN}.png
 	diropts -m0755
-	dodir /opt
-    insinto ${PN}
-    doins -r build/${PN}/*
-	dosym ${PN}/${PN} /usr/bin/${PN}
+	dodir "/opt"
+    install/linux/install.sh --portable-prefix=build
+    rsync -a "${S}/build/" "${D}/opt" || die "Unable to copy files"
+	dosym "/opt/${PN}/${PN}" "/usr/bin/${PN}"
 	make_desktop_entry ${PN} "Double Commander" "${PN}" "Utility;" || die "Failed making desktop entry!"
 }
 
