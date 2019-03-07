@@ -29,6 +29,7 @@ RDEPEND="
 	dev-libs/glib
 	sys-libs/ncurses
 	x11-libs/libX11
+	dev-vcs/subversion
 	x11-libs/gtk+:2
 "
 
@@ -63,7 +64,6 @@ src_compile(){
 }
 
 src_install(){
-    pax-mark m ${PN}
 	install/linux/install.sh --portable-prefix="build"
 	newicon pixmaps/mainicon/colored/v4_4.png ${PN}.png
 	diropts -m0755
