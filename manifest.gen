@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 cd ./app-editors/vscode
 ebuild vscode-1.31.1.ebuild manifest clean merge
+ebuild vscode-1.32.1.ebuild manifest clean merge
 cd -
 
 cd ./app-misc/doublecmd
