@@ -3,4 +3,3 @@ app-editors/vscode 1.31.1 1.32.1: Multiplatform code editor from Microsoft
 app-emulation/playonlinux 4.2.12: Set of scripts to easily install and use Windows games and software
 app-misc/doublecmd 0.9.1: Cross Platform file manager.
 net-libs/nodejs 7.10.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
-x11-terms/alacritty 0.1.0: GPU-accelerated terminal emulator
