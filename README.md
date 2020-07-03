@@ -1,12 +1,13 @@
-## gentoo-overlay
+# gentoo-overlay
+
 My own Gentoo Overlay
 
-###
-Import overlay:
+## Import overlay
+
 ```bash
 sudo layman -S && sudo layman -a keepbot-overlay
 ```
 
-### Overlay info
-* [Contents](CONTENTS.md)
+## Overlay info
 
+* [Contents](CONTENTS.md)
