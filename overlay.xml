@@ -7,7 +7,7 @@
     <homepage>https://github.com/d-k-ivanov/gentoo-overlay.git</homepage>
     <owner type="person">
       <email>d.k.ivanov@live.com</email>
-      <name>Dmitriy Ivanov</name>
+      <name>Dmitry Ivanov</name>
     </owner>
     <source type="git">https://github.com/d-k-ivanov/gentoo-overlay.git</source>
     <source type="git">git+ssh://git@github.com/d-k-ivanov/gentoo-overlay.git</source>
